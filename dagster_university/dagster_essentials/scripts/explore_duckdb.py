@@ -33,6 +33,6 @@ trips_by_week_TEST_query = """
 
 
 print(conn.execute("SHOW TABLES").df())
-print(conn.execute(trips_select_query).df())
+#print(conn.execute(trips_select_query).df())
 #print(df.info())
 
